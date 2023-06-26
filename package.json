@@ -1,16 +1,16 @@
 {
-  "name": "test-go",
+  "name": "vanilla-test-go",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/test-go/",
+    "build": "vite build --base=/vanilla-test-go/",
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^4.0.5",
-    "glob": "^8.1.0"
+    "glob": "^10.3.0",
+    "vite": "^4.3.9"
   },
   "dependencies": {
     "vite-plugin-full-reload": "^1.0.5",
